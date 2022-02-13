@@ -2,11 +2,11 @@ const mysql = require("mysql");
 const util = require("util");
 
 const pool = mysql.createPool({
-    host : 'localhost',
+    host : 'mysql-sixtocabrera.alwaysdata.net',
     port: 3306,
-    password: '',
-    user: 'root',
-    database: 'company',
+    password: '37471572',
+    user: '258126_sixto',
+    database: 'sixtocabrera_company',
     connectionLimit:10
 })
 
